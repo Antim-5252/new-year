@@ -139,6 +139,79 @@
     padding-right: 70px;
 }
 
+.main-section-3 {
+    margin: 160px auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.section-3-img {
+    width: 364.84px;
+    height: 364.84px;
+
+    border: 25px solid white;
+    outline: 8px solid red;
+    border-radius: 50%;
+}
+
+.best-offer {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+.best-offer>.best {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer>h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.best-offer>p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+.year-offer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+.year-offer>h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.year-offer>p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.year-offer>img {
+
+    width: 140px;
+    height: 140px;
+}
+
 .last-section {
     margin: 153px auto;
 
@@ -182,10 +255,22 @@
 }
 
 .last-section-img1 {
+
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 
+}
+
+.last-section-img1>img {
+    transition: 1s ease;
+}
+
+
+.last-section-img1>img:hover {
+    border-radius: 50%;
+    transition: 1s ease;
 }
 
 .newsletter {
@@ -294,7 +379,7 @@
     padding-right: 135px;
 }
 
-.contact-details-phn{
+.contact-details-phn {
     margin-bottom: 20px;
 }
 
@@ -328,4 +413,28 @@ hr {
     display: flex;
     gap: 15px;
 
+}
+
+.icon {
+
+    margin: 60px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.copyright>p {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.copyright {
+    margin: 50px 0;
+
+    display: flex;
+    justify-content: space-between;
 }
