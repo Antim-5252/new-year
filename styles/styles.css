@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    background-image: url('../images/banner.png');
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.banner-details {
+    width: 632px;
+    height: 246px;
+    padding: 120px 344px;
+}
+
+.banner-details>p {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-details>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.percentage>h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+
+.all-catagories>P {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.all-catagories>h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.catagory-image>img {
+    width: 802.9px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.main-section-2 {
+    background-image: url('../images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.dj {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2-details {
+    max-width: 50%;
+}
+
+.section2-details>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+
+.section2-details>p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section2-details>button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+.dj>div>img {
+    display: block;
+    margin-top: 80px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 70px;
+}
+
+.last-section {
+    margin: 153px auto;
+
+    max-width: 1320px;
+    max-height: 1163px;
+}
+
+.last-section-details {
+    max-width: 67%;
+}
+
+.last-section-details>p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.last-section-details>h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.last-section-details .port-details {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.last-section-img1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+.newsletter {
+    margin: 120px auto;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+
+
+.subscribe-newsletter {
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 212px;
+    padding-right: 212px;
+    max-width: 100%;
+}
+
+.subscribe-newsletter>h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.subscribe-newsletter>p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.input-field>input {
+    border: none;
+    padding: 20px;
+
+    padding-right: 190px;
+
+    border-radius: 50px 0% 0% 50px;
+}
+
+.input-field>button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    margin-left: 0;
+    padding: 20px;
+
+    border-radius: 0px 50px 50px 0px;
+
+    background: rgb(255, 0, 0);
+}
+
+.footer-section{
+max-width: 100%;
+height: 609px;
+background: rgb(7, 2, 17);
+}
